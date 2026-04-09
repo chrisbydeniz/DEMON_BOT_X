@@ -1,7 +1,7 @@
 {
-  "name": "knightbot",
-  "version": "1.0.0",
-  "description": "WhatsApp Bot",
+  "name": "00u43-XMD",
+  "version": "3.0.0",
+  "description": "00u43 byDeniz - WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,13 +13,15 @@
     "install:panel": "npm install --legacy-peer-deps",
     "install:force": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID knightbot"
+    "docker:build": "docker build -t 00u43-xmd -e SESSION_ID=$SESSION_ID ."
   },
   "keywords": [
-    "whatsapp-bot"
+    "whatsapp-bot",
+    "00u43",
+    "deniz"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Deniz",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg/ffmpeg": "^0.12.15",
